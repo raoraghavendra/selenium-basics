@@ -32,7 +32,11 @@ public class DynamicDropdown {
 		driver.findElement(By.xpath("//*[@type='text']")).sendKeys("hyd");
 
 		WebDriverWait webdwait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
+		
+		
+		
+		
+		
 		// Thread.sleep(3000);
 		List<WebElement> ele = driver.findElements(By.xpath("//*[@role='listbox']//li"));
 

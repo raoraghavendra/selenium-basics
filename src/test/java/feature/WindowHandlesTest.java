@@ -16,6 +16,7 @@ public class WindowHandlesTest {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	
 
 		driver.get("https://www.google.com/");
 
@@ -25,6 +26,7 @@ public class WindowHandlesTest {
 
 		Set<String> wh = driver.getWindowHandles();
 	
+		
 
 		System.out.println(wh);
 
