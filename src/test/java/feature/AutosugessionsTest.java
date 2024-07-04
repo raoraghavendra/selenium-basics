@@ -56,7 +56,8 @@ public class AutosugessionsTest {
 
 			System.out.println(elem.getText());
 			
-			
+			System.out.println(elem.getText());
+
 		}
 
 
