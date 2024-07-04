@@ -37,9 +37,9 @@ public class AutosugessionsTest {
 		driver.manage().deleteAllCookies();
 		driver.findElement(By.name("q")).sendKeys("sele");
 
-		List<WebElement> ele = driver.findElements(By.xpath("//div[@class='erkvQe']//li[@class='sbct']"));
 		
 		
+		driver.manage().window().maximize();
 		
 		
 /*
