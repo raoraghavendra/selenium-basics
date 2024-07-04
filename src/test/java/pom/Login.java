@@ -12,8 +12,6 @@ public class Login {
 	
 	
 
-	@FindBy(xpath = "//input[@id='pass']")
-         	public static WebElement userPassword;
 	
 	
 	
@@ -25,7 +23,8 @@ public class Login {
 	
 	
 	
-	
+	@FindBy(xpath = "//button[@name='login']")
+ 	public static WebElement submitting;
 	
 	
 	

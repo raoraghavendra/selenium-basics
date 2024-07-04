@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.extentreports.Extentreports">
+      <class name="feature.sample">
         <methods>
-          <include name="extentreport"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.extentreports.Extentreports -->
+      </class> <!-- feature.sample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
