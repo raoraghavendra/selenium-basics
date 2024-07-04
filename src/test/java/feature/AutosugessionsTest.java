@@ -50,11 +50,11 @@ public class AutosugessionsTest {
 */
 		
 		
+	
 		
-		
-		for (WebElement elem : ele) {
+		for (WebElement elemfeksnfkfn: ele) {
 
-			System.out.println(elem.getText());
+			System.out.println(elemfeksnfkfn.getText());
 			
 			
 		}
